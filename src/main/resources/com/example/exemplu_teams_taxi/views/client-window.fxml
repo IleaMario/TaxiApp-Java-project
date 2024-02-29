@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.exemplu_teams_taxi.controller.ClientWindow">
+   <children>
+      <Button layoutX="67.0" layoutY="144.0" mnemonicParsing="false" onAction="#cauta" prefHeight="31.0" prefWidth="54.0" text="CAUTA" />
+      <Button layoutX="67.0" layoutY="69.0" mnemonicParsing="false" text="locatie:" />
+      <TextField fx:id="locatie_text" layoutX="121.0" layoutY="69.0" />
+      <TextField fx:id="info" layoutX="75.0" layoutY="250.0" prefHeight="25.0" prefWidth="392.0" />
+      <Button layoutX="75.0" layoutY="304.0" mnemonicParsing="false" onAction="#accepta" prefHeight="25.0" prefWidth="66.0" text="ACCEPTA" />
+      <Button layoutX="202.0" layoutY="304.0" mnemonicParsing="false" onAction="#cancel" text="CANCEL" />
+   </children>
+</AnchorPane>
