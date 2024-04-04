@@ -23,9 +23,9 @@ public class Main extends Application {
 
     public void start(Stage stage) throws IOException {
 
-        String url = "jdbc:postgresql://localhost:5432/Taximetrie2";
-        String username = "postgres";
-        String password = "********";
+        String url = "***";
+        String username = "***";
+        String password = "***";
         RepoPersoane repo_persoane = new RepoPersoane(url, username, password);
         RepoClienti repo_clienti = new RepoClienti(url, username, password);
         RepoSoferi repo_soferi = new RepoSoferi(url,username,password);
